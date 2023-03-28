@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Testing and Delivery of the Base Container Images</title>
+<meta name="author" content="Dan Čermák"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./node_modules/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="./node_modules/reveal.js/dist/theme/simple.css" id="theme"/>
+
+<link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"/>
+
+<link rel="stylesheet" href="./custom-style.css"/>
+<link rel="stylesheet" href="./node_modules/reveal.js/plugin/highlight/zenburn.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './node_modules/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2 class="title">Testing and Delivery of the Base Container Images</h2>
+<p class="subtitle" style="color: Gray;"></p>
+<p class="author">Dan Čermák</p>
+<div style="float:left"><a href="https://www.devconf.info/cz/" target="_blank"><img src="./media/devconf-cz-bw.svg" height="50px"/></a></div>
+<div style="float:right;font-size:35px;"><p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#"><a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+CC BY 4.0 <i class="fab fa-creative-commons"></i> <i class="fab fa-creative-commons-by"></i></a></p></div>
+</section>
+
+<section>
+<section id="slide-orgc068490">
+<h2 id="orgc068490">who -u</h2>
+<p>
+Dan Čermák
+</p>
+
+<p>
+ <div style="float:center">
+ <table class="who-table">
+ <tr><td><i class="fab fa-suse"></i></td><td> Software Developer @SUSE</td></tr>
+ <tr><td><i class="fab fa-fedora"></i></td><td> i3 SIG, Package maintainer</td></tr>
+ <tr><td><i class="far fa-heart"></i></td><td> Developer Tools, Testing and Documentation, Home Automation</td></tr>
+ <tr></tr>
+ <tr></tr>
+ <tr><td><i class="fa-solid fa-globe"></i></td><td> <a href="https://dancermak.name/">https://dancermak.name</a></td></tr>
+ <tr><td><i class="fab fa-github"></i></td><td> <a href="https://github.com/dcermak/">dcermak</a> / <a href="https://github.com/D4N/">D4N</a></td></tr>
+ <tr><td><i class="fab fa-mastodon"></i></td><td> <a href="https://mastodon.social/@Defolos">@Defolos@mastodon.social</a></td></tr>
+ </table>
+ </div>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org743687b">
+<h2 id="org743687b">What is SLE BCI?</h2>
+<ul>
+<li class="fragment appear">set of container images based on SLES</li>
+<li class="fragment appear">permissive license</li>
+<li class="fragment appear">available for <code>x86_64</code>, <code>aarch64</code>, <code>ppc64le</code> &amp; <code>s390x</code></li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org9ce1cae">
+<h2 id="org9ce1cae">How it all started</h2>
+<p>
+ <img src="./media/initial_setup.svg"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org7a36a64">
+<h2 id="org7a36a64">Then .Net got out of date…</h2>
+<p data-fragment-index="1" class="fragment (appear)">
+let's automate things!
+</p>
+
+<p data-fragment-index="2" class="fragment (appear)">
+ <img src="./media/dotnet_updater.svg"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org736f586">
+<h2 id="org736f586">And then it grew…</h2>
+<ul>
+<li class="fragment appear">more images: nodejs, openjdk, python, .Net, micro, minimal, busybox, go, ruby,</li>
+<li class="fragment appear">second service pack: SP3 &amp; SP4</li>
+<li class="fragment appear">more formal requirements</li>
+
+</ul>
+
+</section>
+<section id="slide-org736f586-split">
+<p data-fragment-index="1" class="fragment (appear)">
+let's automate things!
+</p>
+
+<p data-fragment-index="2" class="fragment (appear)">
+ <img src="./media/build_recipe_generator.svg"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgc297556">
+<h2 id="orgc297556">Oh right we should be testing these things…</h2>
+<ul>
+<li class="fragment appear"><a href="https://github.com/SUSE/BCI-tests/">BCI testsuite</a> by <a href="https://github.com/evrardjp">Jean-Philippe Evrard</a> &amp; Dan Čermák</li>
+<li class="fragment appear"><a href="https://pytest.org/">pytest</a>, <a href="https://testinfra.readthedocs.io/">testinfra</a>, <i class="fa-solid fa-tape"></i> and 🧙</li>
+<li class="fragment appear">ran just on <i class="fa-brands fa-github"></i></li>
+
+</ul>
+
+</section>
+<section id="slide-orgc297556-split">
+
+<p class="fragment (appear)">
+ <img src="./media/container_tests.svg"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org9b8650c">
+<h2 id="org9b8650c">Testing evolved</h2>
+<ul>
+<li class="fragment appear">core split out into <a href="https://github.com/dcermak/pytest_container"><code>pytest_container</code></a></li>
+<li class="fragment appear">tests run in openQA</li>
+<li class="fragment appear">integration into release workflow</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org0e50ba8">
+<h2 id="org0e50ba8">So where are we now?</h2>
+<p class="fragment (appear)">
+ <img src="./media/BCI_release_and_qa.svg"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgdf1e36a">
+<h2 id="orgdf1e36a">Let us go public!</h2>
+<p class="fragment (appear)">
+ <img src="./media/BCI_release_and_qa_with_OBS.svg"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org14d689e">
+<h2 id="org14d689e">Are we there yet?</h2>
+<ul>
+<li class="fragment appear">templates are not getting applied periodically</li>
+<li class="fragment appear">template creation requires manual work</li>
+<li class="fragment appear">manual changes possible</li>
+<li class="fragment appear">.Net separate from rest</li>
+<li class="fragment appear">it's not really public…</li>
+
+</ul>
+
+<p class="fragment (appear)">
+&rArr; dockerfile generator should be the <b>single source of truth</b>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org8698b7e">
+<h2 id="org8698b7e">Let's move the templates to GitHub</h2>
+<p class="fragment (appear)">
+ <img src="./media/github_workflow.svg"/>
+</p>
+
+</section>
+<section id="slide-org8698b7e-split">
+<p>
+ <img src="./media/github_workflow_2.svg"/>
+</p>
+
+</section>
+<section id="slide-org8698b7e-split">
+<p>
+ <img src="./media/github_workflow_3.svg"/>
+</p>
+
+</section>
+<section id="slide-org8698b7e-split">
+<p>
+ <img src="./media/github_workflow_4.svg"/>
+</p>
+
+</section>
+<section id="slide-org8698b7e-split">
+<p>
+ <img src="./media/bot_report_on_scratch_build.png"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org6cf32cd">
+<h2 id="org6cf32cd">Let's move <b>everything</b> to <code>git</code></h2>
+<p class="fragment (appear)">
+ <img src="./media/github_deploy_workflow.svg"/>
+</p>
+
+</section>
+<section id="slide-org6cf32cd-split">
+<p>
+ <img src="./media/github_deploy_workflow_1.svg"/>
+</p>
+
+</section>
+<section id="slide-org6cf32cd-split">
+<p>
+ <img src="./media/github_deploy_workflow_2.svg"/>
+</p>
+
+</section>
+<section id="slide-org6cf32cd-split">
+<p>
+ <img src="./media/github_deploy_workflow_3.svg"/>
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgbd54016">
+<h2 id="orgbd54016">…Are we there yet…?</h2>
+<p class="fragment (appear)">
+ <img src="./media/BCI_release_and_qa_with_OBS_and_GH.svg"/>
+</p>
+
+</section>
+<section id="slide-orgbd54016-split">
+<ul>
+<li class="fragment appear">run tests on each pull request</li>
+<li class="fragment appear">polish &amp; publish Tumbleweed BCIs</li>
+<li class="fragment appear">add support for Tumbleweed to <code>BCI-tests</code></li>
+<li class="fragment appear">Leap based BCI?</li>
+
+</ul>
+
+
+
+</section>
+</section>
+<section>
+<section id="slide-org7718a51">
+<h2 id="org7718a51">Give me the source!</h2>
+<ul>
+<li><i class="fab fa-github"></i> <a href="https://github.com/SUSE/BCI-dockerfile-generator"><code>SUSE/BCI-dockerfile-generator</code></a></li>
+
+<li><i class="fab fa-github"></i> <a href="https://github.com/SUSE/BCI-tests"><code>SUSE/BCI-tests</code></a></li>
+
+<li><i class="fab fa-github"></i> <a href="https://github.com/dcermak/pytest_container"><code>dcermak/pytest_container</code></a> and <i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/pytest_container-presentation/pytest_container.html"><code>dcermak.github.io/pytest_container-presentation</code></a></li>
+
+<li>OBS projects: <a href="https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP4">devel:BCI:SLE-15-SP4</a>, <a href="https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP5">devel:BCI:SLE-15-SP5</a>, <a href="https://build.opensuse.org/project/show/devel:BCI:Tumbleweed">devel:BCI:Tumbleweed</a></li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgd18addd">
+<h2 id="orgd18addd">Questions?</h2>
+<p class="fragment (appear)">
+Answers!
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="./node_modules/reveal.js/dist/reveal.js"></script>
+<script src="./node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+<script src="./node_modules/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealHighlight, RevealNotes, history],
+transition: 'none', hash: true
+});
+
+</script>
+</body>
+</html>
