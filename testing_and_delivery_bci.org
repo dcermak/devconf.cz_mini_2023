@@ -179,6 +179,8 @@ let's automate things!
 
 - OBS projects: [[https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP4][devel:BCI:SLE-15-SP4]], [[https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP5][devel:BCI:SLE-15-SP5]], [[https://build.opensuse.org/project/show/devel:BCI:Tumbleweed][devel:BCI:Tumbleweed]]
 
+@@html:<i class="fa-solid fa-person-chalkboard"></i>@@ [[https://dcermak.github.io/devconf.cz_mini_2023/testing_and_delivery_bci.html][=dcermak.github.io/devconf.cz_mini_2023=]]
+
 
 * Questions?
 
