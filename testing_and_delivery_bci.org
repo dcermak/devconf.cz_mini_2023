@@ -48,6 +48,12 @@ Dan Čermák
 - permissive license
 - available for =x86_64=, =aarch64=, =ppc64le= & =s390x=
 
+#+ATTR_REVEAL: :frag (appear)
+flavors:
+#+ATTR_REVEAL: :frag (appear)
+- base images: =base=, =micro=, =minimal=, =busybox=
+- language stack: =go=, =openjdk=, =python=, etc.
+- application: =rmt=, =postgresql=, =registry=, …
 
 * How it all started
 
@@ -65,7 +71,7 @@ let's automate things!
 
 * And then it grew…
 #+ATTR_REVEAL: :frag (appear)
-- more images: nodejs, openjdk, python, .Net, micro, minimal, busybox, go, ruby,
+- more images: @@html:<i class="fa-brands fa-node"></i>@@, @@html:<i class="fa-brands fa-java"></i>@@, @@html:<i class="fa-brands fa-python"></i>@@, .Net, micro, minimal, busybox, @@html:<i class="fa-brands fa-golang"></i>@@, ruby, [[https://github.com/SUSE/rmt][RMT]], …
 - second service pack: SP3 & SP4
 - more formal requirements
 
@@ -93,8 +99,11 @@ let's automate things!
 * Testing evolved
 #+ATTR_REVEAL: :frag (appear)
 - core split out into [[https://github.com/dcermak/pytest_container][=pytest_container=]]
-- tests run in openQA
-- integration into release workflow
+# - tests run in openQA
+# - integration into release workflow
+
+#+ATTR_REVEAL: :frag (appear)
+@@html: <img src="./media/test_matrix.svg"/>@@
 
 
 * So where are we now?
@@ -160,26 +169,29 @@ let's automate things!
 #+ATTR_REVEAL: :frag (appear)
 @@html: <img src="./media/BCI_release_and_qa_with_OBS_and_GH.svg"/>@@
 
-#+REVEAL: split
+* What is left to do?
+
 #+ATTR_REVEAL: :frag (appear)
 - run tests on each pull request
 - polish & publish Tumbleweed BCIs
 - add support for Tumbleweed to =BCI-tests=
-- Leap based BCI?
-
+- Leap & ALP based BCI?
 
 
 * Give me the source!
 
+#+ATTR_REVEAL: :frag (appear)
 - @@html: <i class="fab fa-github"></i>@@ [[https://github.com/SUSE/BCI-dockerfile-generator][=SUSE/BCI-dockerfile-generator=]]
 
 - @@html: <i class="fab fa-github"></i>@@ [[https://github.com/SUSE/BCI-tests][=SUSE/BCI-tests=]]
 
-- @@html: <i class="fab fa-github"></i>@@ [[https://github.com/dcermak/pytest_container][=dcermak/pytest_container=]] and @@html:<i class="fa-solid fa-person-chalkboard"></i>@@ [[https://dcermak.github.io/pytest_container-presentation/pytest_container.html][=dcermak.github.io/pytest_container-presentation=]]
+- @@html: <i class="fab fa-github"></i>@@ [[https://github.com/dcermak/pytest_container][=dcermak/pytest_container=]]
 
-- OBS projects: [[https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP4][devel:BCI:SLE-15-SP4]], [[https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP5][devel:BCI:SLE-15-SP5]], [[https://build.opensuse.org/project/show/devel:BCI:Tumbleweed][devel:BCI:Tumbleweed]]
+- @@html:<i class="fa-solid fa-person-chalkboard"></i>@@ [[https://dcermak.github.io/pytest_container-presentation/pytest_container.html][=dcermak.github.io/pytest_container-presentation=]]
 
-@@html:<i class="fa-solid fa-person-chalkboard"></i>@@ [[https://dcermak.github.io/devconf.cz_mini_2023/testing_and_delivery_bci.html][=dcermak.github.io/devconf.cz_mini_2023=]]
+- [[https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP4][devel:BCI:SLE-15-SP4]], [[https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP5][devel:BCI:SLE-15-SP5]], [[https://build.opensuse.org/project/show/devel:BCI:Tumbleweed][devel:BCI:Tumbleweed]]
+
+- @@html:<i class="fa-solid fa-person-chalkboard"></i>@@ [[https://dcermak.github.io/devconf.cz_mini_2023/testing_and_delivery_bci.html][=dcermak.github.io/devconf.cz_mini_2023=]]
 
 
 * Questions?
