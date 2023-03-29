@@ -26,8 +26,8 @@
      showgrid="false"
      units="px"
      inkscape:zoom="0.5737093"
-     inkscape:cx="667.58548"
-     inkscape:cy="377.36882"
+     inkscape:cx="1043.2113"
+     inkscape:cy="426.17402"
      inkscape:window-width="1916"
      inkscape:window-height="1036"
      inkscape:window-x="0"
@@ -117,7 +117,7 @@
     <g
        style="fill:none"
        id="g845"
-       transform="matrix(0.09592475,0,0,0.09592475,226.06387,81.934048)">
+       transform="matrix(0.09592475,0,0,0.09592475,263.24015,77.171545)">
       <rect
          width="456"
          height="456"
@@ -161,31 +161,31 @@
        style="fill:none;stroke:#000000;stroke-width:1.852;stroke-miterlimit:4;stroke-dasharray:5.556, 5.556;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        id="rect1176"
        width="117.39377"
-       height="231.3261"
+       height="233.91347"
        x="18.660191"
        y="32.009357"
        ry="7.7399955" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:1.852;stroke-miterlimit:4;stroke-dasharray:5.556, 5.556;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        id="rect1176-2"
-       width="117.39378"
-       height="153.22293"
+       width="187.26677"
+       height="111.62085"
        x="159.058"
-       y="32.640522"
+       y="32.062229"
        ry="6.8683019" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:1.852;stroke-miterlimit:4;stroke-dasharray:5.556, 5.556;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        id="rect1176-7"
-       width="123.50749"
-       height="232.74634"
+       width="123.50751"
+       height="233.6993"
        x="379.52081"
-       y="33.179596"
+       y="32.226631"
        ry="6.6809616" />
     <g
        id="g1327"
-       transform="translate(-43.17895,-10.734459)">
+       transform="matrix(0.76479382,0,0,0.76479382,35.530592,8.1364232)">
       <polygon
-         points="8,19 8,23.01 10.5,21.51 13,23.01 13,19 "
+         points="10.5,21.51 13,23.01 13,19 8,19 8,23.01 "
          id="polygon2"
          transform="matrix(2.5479602,0,0,2.5479602,199.65319,88.113336)" />
       <rect
@@ -216,16 +216,16 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
-       d="m 108.30577,205.84298 c 48.43056,1.1406 82.26447,-14.61453 92.27346,-64.01045"
+       d="m 108.30577,205.84298 c 48.43056,1.1406 97.51585,-18.23589 111.64179,-70.95461"
        id="path1362"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-2)"
-       d="m 235.76676,140.43349 c 17.45238,55.65546 84.06145,49.45158 170.77826,49.45158"
+       d="m 255.46268,138.034 c 18.73691,69.92712 64.36553,67.27229 151.08234,67.27229"
        id="path1362-1"
        sodipodi:nodetypes="cc" />
     <path
-       d="m 313.28521,151.3921 c -2.4781,-2.02595 -5.54215,-3.36546 -8.90767,-3.7003 v 3.38217 c 2.44456,0.30123 4.6715,1.27257 6.53006,2.71251 z m 2.69573,11.28527 h 3.38217 c -0.33477,-3.36551 -1.67434,-6.42956 -3.70036,-8.90766 l -2.39431,2.37761 c 1.43994,1.85856 2.41109,4.08543 2.7125,6.53005 z m -2.7125,9.87875 2.39431,2.39432 c 2.02602,-2.47804 3.36553,-5.55886 3.70036,-8.90761 h -3.38217 c -0.30122,2.4278 -1.27256,4.65473 -2.7125,6.51329 z m -8.8909,5.07335 v 3.38217 c 3.36552,-0.33478 6.42957,-1.67435 8.90767,-3.70036 l -2.39438,-2.39432 c -1.84179,1.43994 -4.06873,2.41109 -6.51329,2.71251 z m 0,-13.27775 v -8.37185 h -3.34869 v 8.37185 h -6.6975 l 8.37185,8.37185 8.37185,-8.37185 z m -3.34869,13.27775 v 3.38217 c -8.45557,-0.83718 -15.06929,-7.96994 -15.06929,-16.65992 0,-8.68998 6.61372,-15.82274 15.06929,-16.65992 v 3.38217 c -6.61378,0.82047 -11.7206,6.44634 -11.7206,13.27775 0,6.83141 5.10682,12.45728 11.7206,13.27775 z"
+       d="m 313.28521,159.57647 c -2.4781,-2.02595 -5.54215,-3.36546 -8.90767,-3.7003 v 3.38217 c 2.44456,0.30123 4.6715,1.27257 6.53006,2.71251 z m 2.69573,11.28527 h 3.38217 c -0.33477,-3.36551 -1.67434,-6.42956 -3.70036,-8.90766 l -2.39431,2.37761 c 1.43994,1.85856 2.41109,4.08543 2.7125,6.53005 z m -2.7125,9.87875 2.39431,2.39432 c 2.02602,-2.47804 3.36553,-5.55886 3.70036,-8.90761 h -3.38217 c -0.30122,2.4278 -1.27256,4.65473 -2.7125,6.51329 z m -8.8909,5.07335 v 3.38217 c 3.36552,-0.33478 6.42957,-1.67435 8.90767,-3.70036 l -2.39438,-2.39432 c -1.84179,1.43994 -4.06873,2.41109 -6.51329,2.71251 z m 0,-13.27775 v -8.37185 h -3.34869 v 8.37185 h -6.6975 l 8.37185,8.37185 8.37185,-8.37185 z m -3.34869,13.27775 v 3.38217 c -8.45557,-0.83718 -15.06929,-7.96994 -15.06929,-16.65992 0,-8.68998 6.61372,-15.82274 15.06929,-16.65992 v 3.38217 c -6.61378,0.82047 -11.7206,6.44634 -11.7206,13.27775 0,6.83141 5.10682,12.45728 11.7206,13.27775 z"
        id="path2-6"
        style="stroke-width:1.67437" />
     <g
@@ -330,80 +330,83 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2.11667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-26)"
-       d="m 311.4853,244.38935 c 29.15796,0 66.13266,-19.67491 94.65414,-36.14179"
+       d="m 311.4853,244.38935 c 29.15796,0 66.13266,-11.36351 94.65414,-27.83039"
        id="path3802-8"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-size:16.9333px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:0.264583"
        x="328.4368"
-       y="169.33551"
+       y="177.51988"
        id="text6606"><tspan
          sodipodi:role="line"
          id="tspan6604"
          style="font-size:16.9333px;stroke-width:0.264583"
          x="328.4368"
-         y="169.33551">RPMs</tspan></text>
+         y="177.51988">RPMs</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:16.9333px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:0.264583"
-       x="223.96748"
+       style="font-size:14.1111px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:0.264583"
+       x="221.85085"
        y="249.46724"
        id="text6606-0"><tspan
          sodipodi:role="line"
          id="tspan6604-6"
-         style="font-size:16.9333px;stroke-width:0.264583"
-         x="223.96748"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="221.85085"
          y="249.46724">Dockerfile</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:16.9333px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:0.264583"
-       x="39.529392"
-       y="65.094299"
-       id="text16235"><tspan
-         sodipodi:role="line"
-         id="tspan16233"
-         style="font-size:16.9333px;stroke-width:0.264583"
-         x="39.529392"
-         y="65.094299">Gitlab CI</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16.9333px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:0.264583"
-       x="181.22148"
-       y="65.094299"
+       style="font-size:12.7px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:0.264583"
+       x="168.55887"
+       y="54.300835"
        id="text16235-2"><tspan
          sodipodi:role="line"
          id="tspan16233-0"
-         style="font-size:16.9333px;stroke-width:0.264583"
-         x="181.22148"
-         y="65.094299">MS Repo</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16.9333px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:Poppins;stroke-width:0.264583"
-       x="430.12421"
-       y="65.094299"
-       id="text16235-2-2"><tspan
-         sodipodi:role="line"
-         id="tspan16233-0-3"
-         style="font-size:16.9333px;stroke-width:0.264583"
-         x="430.12421"
-         y="65.094299">IBS</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="168.55887"
+         y="54.300835">packages.microsoft.com</tspan></text>
     <path
        fill-rule="evenodd"
        clip-rule="evenodd"
-       d="m 450.89076,177.51702 19.87125,5.29666 2.25023,1.62717 v 23.3331 l -1.28094,1.6617 -21.2213,5.85053 -21.25597,-5.85053 -1.24562,-1.6617 v -23.3331 l 2.11167,-1.62717 19.83659,-5.29666 z m -0.31142,3.46185 -13.8475,3.46198 1.90402,0.69216 11.87427,3.11575 10.38566,-2.80409 3.28874,-1.00356 z m -19.10962,25.47958 17.30949,4.74281 v -19.83672 l -17.30949,-4.6389 z m 20.77134,-15.09391 v 19.83672 l 17.30948,-4.74281 v -19.83671 l -6.99304,1.91449 v 8.8866 l -3.46198,0.90021 v -8.83832 z"
+       d="m 444.4455,191.27544 19.87125,5.29666 2.25023,1.62717 v 23.3331 l -1.28094,1.6617 -21.2213,5.85053 -21.25597,-5.85053 -1.24562,-1.6617 v -23.3331 l 2.11167,-1.62717 19.83659,-5.29666 z m -0.31142,3.46185 -13.8475,3.46198 1.90402,0.69216 11.87427,3.11575 10.38566,-2.80409 3.28874,-1.00356 z m -19.10962,25.47958 17.30949,4.74281 v -19.83672 l -17.30949,-4.6389 z m 20.77134,-15.09391 v 19.83672 l 17.30948,-4.74281 v -19.83671 l -6.99304,1.91449 v 8.8866 l -3.46198,0.90021 v -8.83832 z"
        id="path37492"
        style="stroke-width:3.46189" />
-    <path
-       fill="#636a72"
-       d="m 461.96124,75.110165 v 35.157325 1.8503 38.85826 l 23.84132,-9.25216 -1.35171,-19.78715 -18.60402,-9.82322 V 80.661063 Z m -18.45774,5.635852 v 33.214193 l 3.40014,-0.68061 V 86.489783 Z m -18.44919,5.492184 -0.008,31.415059 3.40868,-0.68258 V 91.789426 Z"
-       id="path84629"
-       style="stroke-width:0.167941" />
-    <path
-       d="m 461.96124,75.110165 -9.22891,5.550926 v 31.452619 l -3.40017,0.68062 -4.3714,0.87448 -1.45734,0.2916 V 80.661091 l -9.22892,5.55158 v 29.594439 l -3.88594,0.77706 -4.3714,0.87447 -0.97156,0.19485 V 86.212671 l -9.2289,5.550924 v 27.735925 l -12.27057,2.43745 -3.72914,19.78726 26.20017,3.90103 27.6559,4.11751 8.28818,1.23365 v -27.38167 -11.47678 -1.84998 z"
-       fill="#868e96"
-       id="path84631"
-       style="stroke-width:0.167941" />
+    <g
+       id="g167094">
+      <path
+         fill="#636a72"
+         d="m 461.96124,75.110165 v 35.157325 1.8503 38.85826 l 23.84132,-9.25216 -1.35171,-19.78715 -18.60402,-9.82322 V 80.661063 Z m -18.45774,5.635852 v 33.214193 l 3.40014,-0.68061 V 86.489783 Z m -18.44919,5.492184 -0.008,31.415059 3.40868,-0.68258 V 91.789426 Z"
+         id="path84629"
+         style="stroke-width:0.167941" />
+      <path
+         d="m 461.96124,75.110165 -9.22891,5.550926 v 31.452619 l -3.40017,0.68062 -4.3714,0.87448 -1.45734,0.2916 V 80.661091 l -9.22892,5.55158 v 29.594439 l -3.88594,0.77706 -4.3714,0.87447 -0.97156,0.19485 V 86.212671 l -9.2289,5.550924 v 27.735925 l -12.27057,2.43745 -3.72914,19.78726 26.20017,3.90103 27.6559,4.11751 8.28818,1.23365 v -27.38167 -11.47678 -1.84998 z"
+         fill="#868e96"
+         id="path84631"
+         style="stroke-width:0.167941" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.1111px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="387.48807"
+       y="55.052692"
+       id="text5934-9-9"><tspan
+         sodipodi:role="line"
+         id="tspan5932-0-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="387.48807"
+         y="55.052692">build.suse.de</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.7px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="24.037123"
+       y="55.215397"
+       id="text5934-9-9-9"><tspan
+         sodipodi:role="line"
+         id="tspan5932-0-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="24.037123"
+         y="55.215397">gitlab.suse.de</tspan></text>
   </g>
   <style
      type="text/css"

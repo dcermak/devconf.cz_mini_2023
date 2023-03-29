@@ -40,8 +40,8 @@ CC BY 4.0 <i class="fab fa-creative-commons"></i> <i class="fab fa-creative-comm
 </section>
 
 <section>
-<section id="slide-org4046e8e">
-<h2 id="org4046e8e">who -u</h2>
+<section id="slide-orgad52f9e">
+<h2 id="orgad52f9e">who -u</h2>
 <p>
 Dan Čermák
 </p>
@@ -65,8 +65,8 @@ Dan Čermák
 </section>
 </section>
 <section>
-<section id="slide-orgb37e308">
-<h2 id="orgb37e308">What is SLE BCI?</h2>
+<section id="slide-org9716d25">
+<h2 id="org9716d25">What is SLE BCI?</h2>
 <ul>
 <li class="fragment appear">set of container images based on SLES</li>
 <li class="fragment appear">permissive license</li>
@@ -74,12 +74,21 @@ Dan Čermák
 
 </ul>
 
+<p class="fragment (appear)">
+flavors:
+</p>
+<ul>
+<li class="fragment appear">base images: <code>base</code>, <code>micro</code>, <code>minimal</code>, <code>busybox</code></li>
+<li class="fragment appear">language stack: <code>go</code>, <code>openjdk</code>, <code>python</code>, etc.</li>
+<li class="fragment appear">application: <code>rmt</code>, <code>postgresql</code>, <code>registry</code>, …</li>
+
+</ul>
 
 </section>
 </section>
 <section>
-<section id="slide-orgc66efcf">
-<h2 id="orgc66efcf">How it all started</h2>
+<section id="slide-org08e6bd0">
+<h2 id="org08e6bd0">How it all started</h2>
 <p>
  <img src="./media/initial_setup.svg"/>
 </p>
@@ -88,8 +97,8 @@ Dan Čermák
 </section>
 </section>
 <section>
-<section id="slide-org4b06562">
-<h2 id="org4b06562">Then .Net got out of date…</h2>
+<section id="slide-org477527b">
+<h2 id="org477527b">Then .Net got out of date…</h2>
 <p data-fragment-index="1" class="fragment (appear)">
 let's automate things!
 </p>
@@ -102,17 +111,17 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org45fde12">
-<h2 id="org45fde12">And then it grew…</h2>
+<section id="slide-org24f9701">
+<h2 id="org24f9701">And then it grew…</h2>
 <ul>
-<li class="fragment appear">more images: nodejs, openjdk, python, .Net, micro, minimal, busybox, go, ruby,</li>
+<li class="fragment appear">more images: <i class="fa-brands fa-node"></i>, <i class="fa-brands fa-java"></i>, <i class="fa-brands fa-python"></i>, .Net, micro, minimal, busybox, <i class="fa-brands fa-golang"></i>, ruby, <a href="https://github.com/SUSE/rmt">RMT</a>, …</li>
 <li class="fragment appear">second service pack: SP3 &amp; SP4</li>
 <li class="fragment appear">more formal requirements</li>
 
 </ul>
 
 </section>
-<section id="slide-org45fde12-split">
+<section id="slide-org24f9701-split">
 <p data-fragment-index="1" class="fragment (appear)">
 let's automate things!
 </p>
@@ -125,8 +134,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org145c08b">
-<h2 id="org145c08b">Oh right we should be testing these things…</h2>
+<section id="slide-orgfa667ea">
+<h2 id="orgfa667ea">Oh right we should be testing these things…</h2>
 <ul>
 <li class="fragment appear"><a href="https://github.com/SUSE/BCI-tests/">BCI testsuite</a> by <a href="https://github.com/evrardjp">Jean-Philippe Evrard</a> &amp; Dan Čermák</li>
 <li class="fragment appear"><a href="https://pytest.org/">pytest</a>, <a href="https://testinfra.readthedocs.io/">testinfra</a>, <i class="fa-solid fa-tape"></i> and 🧙</li>
@@ -135,7 +144,7 @@ let's automate things!
 </ul>
 
 </section>
-<section id="slide-org145c08b-split">
+<section id="slide-orgfa667ea-split">
 
 <p class="fragment (appear)">
  <img src="./media/container_tests.svg"/>
@@ -145,21 +154,23 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org29f89fe">
-<h2 id="org29f89fe">Testing evolved</h2>
+<section id="slide-org691b5e9">
+<h2 id="org691b5e9">Testing evolved</h2>
 <ul>
 <li class="fragment appear">core split out into <a href="https://github.com/dcermak/pytest_container"><code>pytest_container</code></a></li>
-<li class="fragment appear">tests run in openQA</li>
-<li class="fragment appear">integration into release workflow</li>
 
 </ul>
+
+<p class="fragment (appear)">
+ <img src="./media/test_matrix.svg"/>
+</p>
 
 
 </section>
 </section>
 <section>
-<section id="slide-org081a193">
-<h2 id="org081a193">So where are we now?</h2>
+<section id="slide-org4a2fe08">
+<h2 id="org4a2fe08">So where are we now?</h2>
 <p class="fragment (appear)">
  <img src="./media/BCI_release_and_qa.svg"/>
 </p>
@@ -168,8 +179,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org9aebca0">
-<h2 id="org9aebca0">Let us go public!</h2>
+<section id="slide-orgc4cb141">
+<h2 id="orgc4cb141">Let us go public!</h2>
 <p class="fragment (appear)">
  <img src="./media/BCI_release_and_qa_with_OBS.svg"/>
 </p>
@@ -178,8 +189,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org03a1161">
-<h2 id="org03a1161">Are we there yet?</h2>
+<section id="slide-orga4f4944">
+<h2 id="orga4f4944">Are we there yet?</h2>
 <ul>
 <li class="fragment appear">templates are not getting applied periodically</li>
 <li class="fragment appear">template creation requires manual work</li>
@@ -197,32 +208,32 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org5d5568c">
-<h2 id="org5d5568c">Let's move the templates to GitHub</h2>
+<section id="slide-orgcaffa8d">
+<h2 id="orgcaffa8d">Let's move the templates to GitHub</h2>
 <p class="fragment (appear)">
  <img src="./media/github_workflow.svg"/>
 </p>
 
 </section>
-<section id="slide-org5d5568c-split">
+<section id="slide-orgcaffa8d-split">
 <p>
  <img src="./media/github_workflow_2.svg"/>
 </p>
 
 </section>
-<section id="slide-org5d5568c-split">
+<section id="slide-orgcaffa8d-split">
 <p>
  <img src="./media/github_workflow_3.svg"/>
 </p>
 
 </section>
-<section id="slide-org5d5568c-split">
+<section id="slide-orgcaffa8d-split">
 <p>
  <img src="./media/github_workflow_4.svg"/>
 </p>
 
 </section>
-<section id="slide-org5d5568c-split">
+<section id="slide-orgcaffa8d-split">
 <p>
  <img src="./media/bot_report_on_scratch_build.png"/>
 </p>
@@ -231,26 +242,26 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org05fc7b5">
-<h2 id="org05fc7b5">Let's move <b>everything</b> to <code>git</code></h2>
+<section id="slide-orgd5d00d6">
+<h2 id="orgd5d00d6">Let's move <b>everything</b> to <code>git</code></h2>
 <p class="fragment (appear)">
  <img src="./media/github_deploy_workflow.svg"/>
 </p>
 
 </section>
-<section id="slide-org05fc7b5-split">
+<section id="slide-orgd5d00d6-split">
 <p>
  <img src="./media/github_deploy_workflow_1.svg"/>
 </p>
 
 </section>
-<section id="slide-org05fc7b5-split">
+<section id="slide-orgd5d00d6-split">
 <p>
  <img src="./media/github_deploy_workflow_2.svg"/>
 </p>
 
 </section>
-<section id="slide-org05fc7b5-split">
+<section id="slide-orgd5d00d6-split">
 <p>
  <img src="./media/github_deploy_workflow_3.svg"/>
 </p>
@@ -259,50 +270,52 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org9641e15">
-<h2 id="org9641e15">…Are we there yet…?</h2>
+<section id="slide-orga00eb6b">
+<h2 id="orga00eb6b">…Are we there yet…?</h2>
 <p class="fragment (appear)">
  <img src="./media/BCI_release_and_qa_with_OBS_and_GH.svg"/>
 </p>
 
 </section>
-<section id="slide-org9641e15-split">
+</section>
+<section>
+<section id="slide-orgea503a8">
+<h2 id="orgea503a8">What is left to do?</h2>
 <ul>
 <li class="fragment appear">run tests on each pull request</li>
 <li class="fragment appear">polish &amp; publish Tumbleweed BCIs</li>
 <li class="fragment appear">add support for Tumbleweed to <code>BCI-tests</code></li>
-<li class="fragment appear">Leap based BCI?</li>
+<li class="fragment appear">Leap &amp; ALP based BCI?</li>
 
 </ul>
-
 
 
 </section>
 </section>
 <section>
-<section id="slide-org2f3ddd5">
-<h2 id="org2f3ddd5">Give me the source!</h2>
+<section id="slide-org895a812">
+<h2 id="org895a812">Give me the source!</h2>
 <ul>
-<li><i class="fab fa-github"></i> <a href="https://github.com/SUSE/BCI-dockerfile-generator"><code>SUSE/BCI-dockerfile-generator</code></a></li>
+<li class="fragment appear"><i class="fab fa-github"></i> <a href="https://github.com/SUSE/BCI-dockerfile-generator"><code>SUSE/BCI-dockerfile-generator</code></a></li>
 
-<li><i class="fab fa-github"></i> <a href="https://github.com/SUSE/BCI-tests"><code>SUSE/BCI-tests</code></a></li>
+<li class="fragment appear"><i class="fab fa-github"></i> <a href="https://github.com/SUSE/BCI-tests"><code>SUSE/BCI-tests</code></a></li>
 
-<li><i class="fab fa-github"></i> <a href="https://github.com/dcermak/pytest_container"><code>dcermak/pytest_container</code></a> and <i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/pytest_container-presentation/pytest_container.html"><code>dcermak.github.io/pytest_container-presentation</code></a></li>
+<li class="fragment appear"><i class="fab fa-github"></i> <a href="https://github.com/dcermak/pytest_container"><code>dcermak/pytest_container</code></a></li>
 
-<li>OBS projects: <a href="https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP4">devel:BCI:SLE-15-SP4</a>, <a href="https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP5">devel:BCI:SLE-15-SP5</a>, <a href="https://build.opensuse.org/project/show/devel:BCI:Tumbleweed">devel:BCI:Tumbleweed</a></li>
+<li class="fragment appear"><i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/pytest_container-presentation/pytest_container.html"><code>dcermak.github.io/pytest_container-presentation</code></a></li>
+
+<li class="fragment appear"><a href="https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP4">devel:BCI:SLE-15-SP4</a>, <a href="https://build.opensuse.org/project/show/devel:BCI:SLE-15-SP5">devel:BCI:SLE-15-SP5</a>, <a href="https://build.opensuse.org/project/show/devel:BCI:Tumbleweed">devel:BCI:Tumbleweed</a></li>
+
+<li class="fragment appear"><i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/devconf.cz_mini_2023/testing_and_delivery_bci.html"><code>dcermak.github.io/devconf.cz_mini_2023</code></a></li>
 
 </ul>
-
-<p>
-<i class="fa-solid fa-person-chalkboard"></i> <a href="https://dcermak.github.io/devconf.cz_mini_2023/testing_and_delivery_bci.html"><code>dcermak.github.io/devconf.cz_mini_2023</code></a>
-</p>
 
 
 </section>
 </section>
 <section>
-<section id="slide-org96134b8">
-<h2 id="org96134b8">Questions?</h2>
+<section id="slide-org942610a">
+<h2 id="org942610a">Questions?</h2>
 <p class="fragment (appear)">
 Answers!
 </p>
