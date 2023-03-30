@@ -44,7 +44,7 @@ Dan Čermák
 * What is SLE BCI?
 
 #+ATTR_REVEAL: :frag (appear)
-- set of container images based on SLES
+- set of open source container images based on SLES
 - permissive license
 - available for =x86_64=, =aarch64=, =ppc64le= & =s390x=
 
