@@ -121,17 +121,26 @@ let's automate things!
 * Are we there yet?
 
 #+ATTR_REVEAL: :frag (appear)
+- it's not really public…
 - templates are not getting applied periodically
 - template creation requires manual work
 - manual changes possible
 - .Net separate from rest
-- it's not really public…
+
+#+ATTR_REVEAL: :frag (appear)
+🆕 OBS Feature: =<scmsync>= 🆕
 
 #+ATTR_REVEAL: :frag (appear)
 \Rightarrow dockerfile generator should be the *single source of truth*
 
 
 * Let's move the templates to GitHub
+
+#+ATTR_REVEAL: :frag (appear)
+- =main= contains the code
+- =sle15-spX= / =Tumbleweed= contains rendered templates + changelog
+
+#+REVEAL: split
 
 #+ATTR_REVEAL: :frag (appear)
 @@html: <img src="./media/github_workflow.svg"/>@@
