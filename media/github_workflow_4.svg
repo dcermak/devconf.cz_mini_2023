@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.95497112"
-     inkscape:cx="487.4493"
-     inkscape:cy="142.93626"
+     inkscape:cx="488.49645"
+     inkscape:cy="143.98341"
      inkscape:window-width="1916"
      inkscape:window-height="1036"
      inkscape:window-x="0"
@@ -300,25 +300,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="187.16626"
+       x="185.57878"
        y="116.2758"
        id="text5934-9-9"><tspan
          sodipodi:role="line"
          id="tspan5932-0-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
-         x="187.16626"
-         y="116.2758">sle15sp5-$rand</tspan></text>
+         x="185.57878"
+         y="116.2758">sle15-sp5-$rand</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="187.16626"
+       x="185.57878"
        y="140.61935"
        id="text5934-9-9-5"><tspan
          sodipodi:role="line"
          id="tspan5932-0-6-4"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
-         x="187.16626"
-         y="140.61935">sle15sp4-$rand</tspan></text>
+         x="185.57878"
+         y="140.61935">sle15-sp4-$rand</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -345,7 +345,7 @@
          id="tspan5932-0-6-4-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
          x="183.10686"
-         y="165.01459">tumbleweed-$rand</tspan></text>
+         y="165.01459">Tumbleweed-$rand</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.79375;stroke-dasharray:1.5875, 1.5875;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
        id="rect200276"

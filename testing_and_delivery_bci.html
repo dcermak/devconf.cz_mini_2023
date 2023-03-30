@@ -40,8 +40,8 @@ CC BY 4.0 <i class="fab fa-creative-commons"></i> <i class="fab fa-creative-comm
 </section>
 
 <section>
-<section id="slide-orgad52f9e">
-<h2 id="orgad52f9e">who -u</h2>
+<section id="slide-orgb192a7c">
+<h2 id="orgb192a7c">who -u</h2>
 <p>
 Dan Čermák
 </p>
@@ -65,10 +65,10 @@ Dan Čermák
 </section>
 </section>
 <section>
-<section id="slide-org9716d25">
-<h2 id="org9716d25">What is SLE BCI?</h2>
+<section id="slide-org319a5a3">
+<h2 id="org319a5a3">What is SLE BCI?</h2>
 <ul>
-<li class="fragment appear">set of container images based on SLES</li>
+<li class="fragment appear">set of open source container images based on SLES</li>
 <li class="fragment appear">permissive license</li>
 <li class="fragment appear">available for <code>x86_64</code>, <code>aarch64</code>, <code>ppc64le</code> &amp; <code>s390x</code></li>
 
@@ -87,8 +87,8 @@ flavors:
 </section>
 </section>
 <section>
-<section id="slide-org08e6bd0">
-<h2 id="org08e6bd0">How it all started</h2>
+<section id="slide-org07589ac">
+<h2 id="org07589ac">How it all started</h2>
 <p>
  <img src="./media/initial_setup.svg"/>
 </p>
@@ -97,8 +97,8 @@ flavors:
 </section>
 </section>
 <section>
-<section id="slide-org477527b">
-<h2 id="org477527b">Then .Net got out of date…</h2>
+<section id="slide-org01a81f9">
+<h2 id="org01a81f9">Then .Net got out of date…</h2>
 <p data-fragment-index="1" class="fragment (appear)">
 let's automate things!
 </p>
@@ -111,8 +111,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org24f9701">
-<h2 id="org24f9701">And then it grew…</h2>
+<section id="slide-orgc62c3d3">
+<h2 id="orgc62c3d3">And then it grew…</h2>
 <ul>
 <li class="fragment appear">more images: <i class="fa-brands fa-node"></i>, <i class="fa-brands fa-java"></i>, <i class="fa-brands fa-python"></i>, .Net, micro, minimal, busybox, <i class="fa-brands fa-golang"></i>, ruby, <a href="https://github.com/SUSE/rmt">RMT</a>, …</li>
 <li class="fragment appear">second service pack: SP3 &amp; SP4</li>
@@ -121,7 +121,7 @@ let's automate things!
 </ul>
 
 </section>
-<section id="slide-org24f9701-split">
+<section id="slide-orgc62c3d3-split">
 <p data-fragment-index="1" class="fragment (appear)">
 let's automate things!
 </p>
@@ -134,8 +134,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-orgfa667ea">
-<h2 id="orgfa667ea">Oh right we should be testing these things…</h2>
+<section id="slide-org7f795b3">
+<h2 id="org7f795b3">Oh right we should be testing these things…</h2>
 <ul>
 <li class="fragment appear"><a href="https://github.com/SUSE/BCI-tests/">BCI testsuite</a> by <a href="https://github.com/evrardjp">Jean-Philippe Evrard</a> &amp; Dan Čermák</li>
 <li class="fragment appear"><a href="https://pytest.org/">pytest</a>, <a href="https://testinfra.readthedocs.io/">testinfra</a>, <i class="fa-solid fa-tape"></i> and 🧙</li>
@@ -144,7 +144,7 @@ let's automate things!
 </ul>
 
 </section>
-<section id="slide-orgfa667ea-split">
+<section id="slide-org7f795b3-split">
 
 <p class="fragment (appear)">
  <img src="./media/container_tests.svg"/>
@@ -154,8 +154,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org691b5e9">
-<h2 id="org691b5e9">Testing evolved</h2>
+<section id="slide-orgd4259c0">
+<h2 id="orgd4259c0">Testing evolved</h2>
 <ul>
 <li class="fragment appear">core split out into <a href="https://github.com/dcermak/pytest_container"><code>pytest_container</code></a></li>
 
@@ -169,8 +169,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org4a2fe08">
-<h2 id="org4a2fe08">So where are we now?</h2>
+<section id="slide-orgd4a4be5">
+<h2 id="orgd4a4be5">So where are we now?</h2>
 <p class="fragment (appear)">
  <img src="./media/BCI_release_and_qa.svg"/>
 </p>
@@ -179,8 +179,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-orgc4cb141">
-<h2 id="orgc4cb141">Let us go public!</h2>
+<section id="slide-org316f4f1">
+<h2 id="org316f4f1">Let us go public!</h2>
 <p class="fragment (appear)">
  <img src="./media/BCI_release_and_qa_with_OBS.svg"/>
 </p>
@@ -189,16 +189,20 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-orga4f4944">
-<h2 id="orga4f4944">Are we there yet?</h2>
+<section id="slide-orgbbe9c4a">
+<h2 id="orgbbe9c4a">Are we there yet?</h2>
 <ul>
+<li class="fragment appear">it's not really public…</li>
 <li class="fragment appear">templates are not getting applied periodically</li>
 <li class="fragment appear">template creation requires manual work</li>
 <li class="fragment appear">manual changes possible</li>
 <li class="fragment appear">.Net separate from rest</li>
-<li class="fragment appear">it's not really public…</li>
 
 </ul>
+
+<p class="fragment (appear)">
+🆕 OBS Feature: <code>&lt;scmsync&gt;</code> 🆕
+</p>
 
 <p class="fragment (appear)">
 &rArr; dockerfile generator should be the <b>single source of truth</b>
@@ -208,32 +212,41 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-orgcaffa8d">
-<h2 id="orgcaffa8d">Let's move the templates to GitHub</h2>
+<section id="slide-org534074e">
+<h2 id="org534074e">Let's move the templates to GitHub</h2>
+<ul>
+<li class="fragment appear"><code>main</code> contains the code</li>
+<li class="fragment appear"><code>sle15-spX</code> / <code>Tumbleweed</code> contains rendered templates + changelog</li>
+
+</ul>
+
+</section>
+<section id="slide-org534074e-split">
+
 <p class="fragment (appear)">
  <img src="./media/github_workflow.svg"/>
 </p>
 
 </section>
-<section id="slide-orgcaffa8d-split">
+<section id="slide-org534074e-split">
 <p>
  <img src="./media/github_workflow_2.svg"/>
 </p>
 
 </section>
-<section id="slide-orgcaffa8d-split">
+<section id="slide-org534074e-split">
 <p>
  <img src="./media/github_workflow_3.svg"/>
 </p>
 
 </section>
-<section id="slide-orgcaffa8d-split">
+<section id="slide-org534074e-split">
 <p>
  <img src="./media/github_workflow_4.svg"/>
 </p>
 
 </section>
-<section id="slide-orgcaffa8d-split">
+<section id="slide-org534074e-split">
 <p>
  <img src="./media/bot_report_on_scratch_build.png"/>
 </p>
@@ -242,26 +255,26 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-orgd5d00d6">
-<h2 id="orgd5d00d6">Let's move <b>everything</b> to <code>git</code></h2>
+<section id="slide-org827b93b">
+<h2 id="org827b93b">Let's move <b>everything</b> to <code>git</code></h2>
 <p class="fragment (appear)">
  <img src="./media/github_deploy_workflow.svg"/>
 </p>
 
 </section>
-<section id="slide-orgd5d00d6-split">
+<section id="slide-org827b93b-split">
 <p>
  <img src="./media/github_deploy_workflow_1.svg"/>
 </p>
 
 </section>
-<section id="slide-orgd5d00d6-split">
+<section id="slide-org827b93b-split">
 <p>
  <img src="./media/github_deploy_workflow_2.svg"/>
 </p>
 
 </section>
-<section id="slide-orgd5d00d6-split">
+<section id="slide-org827b93b-split">
 <p>
  <img src="./media/github_deploy_workflow_3.svg"/>
 </p>
@@ -270,8 +283,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-orga00eb6b">
-<h2 id="orga00eb6b">…Are we there yet…?</h2>
+<section id="slide-org409333b">
+<h2 id="org409333b">…Are we there yet…?</h2>
 <p class="fragment (appear)">
  <img src="./media/BCI_release_and_qa_with_OBS_and_GH.svg"/>
 </p>
@@ -279,13 +292,13 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-orgea503a8">
-<h2 id="orgea503a8">What is left to do?</h2>
+<section id="slide-org883c7be">
+<h2 id="org883c7be">What is left to do?</h2>
 <ul>
 <li class="fragment appear">run tests on each pull request</li>
 <li class="fragment appear">polish &amp; publish Tumbleweed BCIs</li>
 <li class="fragment appear">add support for Tumbleweed to <code>BCI-tests</code></li>
-<li class="fragment appear">Leap &amp; ALP based BCI?</li>
+<li class="fragment appear">ALP based BCI</li>
 
 </ul>
 
@@ -293,8 +306,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org895a812">
-<h2 id="org895a812">Give me the source!</h2>
+<section id="slide-org4204a5a">
+<h2 id="org4204a5a">Give me the source!</h2>
 <ul>
 <li class="fragment appear"><i class="fab fa-github"></i> <a href="https://github.com/SUSE/BCI-dockerfile-generator"><code>SUSE/BCI-dockerfile-generator</code></a></li>
 
@@ -314,8 +327,8 @@ let's automate things!
 </section>
 </section>
 <section>
-<section id="slide-org942610a">
-<h2 id="org942610a">Questions?</h2>
+<section id="slide-orgdc90999">
+<h2 id="orgdc90999">Questions?</h2>
 <p class="fragment (appear)">
 Answers!
 </p>
