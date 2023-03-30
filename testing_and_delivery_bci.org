@@ -184,7 +184,7 @@ let's automate things!
 - run tests on each pull request
 - polish & publish Tumbleweed BCIs
 - add support for Tumbleweed to =BCI-tests=
-- Leap & ALP based BCI?
+- ALP based BCI
 
 
 * Give me the source!
