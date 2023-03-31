@@ -45,8 +45,9 @@ Dan Čermák
 
 #+ATTR_REVEAL: :frag (appear)
 - set of open source container images based on SLES
-- permissive license
+- permissive license, free to use & redistribute ([[https://www.suse.com/licensing/eula/#bci][T&C apply]])
 - available for =x86_64=, =aarch64=, =ppc64le= & =s390x=
+- grab them from [[https://registry.suse.com/][=registry.suse.com=]]
 
 #+ATTR_REVEAL: :frag (appear)
 flavors:
@@ -54,6 +55,7 @@ flavors:
 - base images: =base=, =micro=, =minimal=, =busybox=
 - language stack: =go=, =openjdk=, =python=, etc.
 - application: =rmt=, =postgresql=, =registry=, …
+
 
 * How it all started
 
