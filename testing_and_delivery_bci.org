@@ -187,6 +187,15 @@ let's automate things!
 - ALP based BCI
 
 
+* Thank you 💚
+
+Alexander Herzig, Bruno Leon, Darragh O'Reilly, Dirk Müller, Dmitri Popov,
+Fabian Vogt, Felix Niederwanger, Frederic Crozat, Ivan Lausuch, Jose Lausuch,
+Marco Varlese, Marcus Meissner, Martin Loviska, Maurizio Dati, Michal Švec, Olaf
+Kirch, Pavel Dostál, Ricardo Branco, Vincent Moutoussamy, William Brown, Witold
+Bedyk
+
+
 * Give me the source!
 
 #+ATTR_REVEAL: :frag (appear)
