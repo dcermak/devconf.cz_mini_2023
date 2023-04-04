@@ -3,7 +3,7 @@
 This repository contains the slides for the presentation "Testing and Delivery
 of the Base Container Images" held at DevConf.cz Mini 2023.
 
-You can find the rendered slides here: [[https://dcermak.github.io/pytest_container-presentation/pytest_container.html][dcermak.github.io/pytest_container-presentation]].
+You can find the rendered slides here: [[https://dcermak.github.io/devconf.cz_mini_2023/testing_and_delivery_bci.html][dcermak.github.io/devconf.cz_mini_2023]].
 
 
 ** Building the slides
